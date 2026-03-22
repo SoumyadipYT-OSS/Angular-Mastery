@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #1e1608; 
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+
+.green  { background: linear-gradient(45deg, #28a745, #85e09b); }
+.purple { background: linear-gradient(45deg, #6f42c1, #a389d4); }
+.blue   { background: linear-gradient(45deg, #007bff, #66b0ff); } 
+.orange { background: linear-gradient(45deg, #ff9800, #ffc107); }
+.pink   { background: linear-gradient(45deg, #e91e63, #f48fb1); }
